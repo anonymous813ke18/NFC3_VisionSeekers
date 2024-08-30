@@ -1,0 +1,39 @@
+body {
+    background-color: #70a0db !important;
+}
+
+.ui.grid {
+    display: flex; /* Enables Flexbox for alignment */
+    justify-content: center; /* Centers the `.twelve.wide.column` horizontally */
+    align-items: start; /* Aligns content to the start of the grid */
+    padding: 0 20px; /* Adds padding for responsive spacing */
+    max-width: 1000px; /* Controls the maximum width of the grid */
+    margin: 0 auto; /* Centers the `.ui.grid` on the page */
+    height: 100vh; /* Ensures the grid takes up the full height of the viewport */
+    overflow-y: auto; /* Adds vertical scrolling */
+    background: rgba(255, 255, 255, 0.1); /* Translucent background */
+}
+
+.twelve.wide.column {
+    display: flex;
+    flex-direction: column; /* Allows vertical stacking of child elements */
+    align-items: center; /* Centers the content inside the column */
+    width: 100%; /* Ensures the column takes full width of the available space */
+    max-width: 800px; /* Optionally set a max-width to control the width of content */
+}
+
+.bg {
+    background-color: #bcbcbc;
+}
+
+.centering {
+    text-align: center;
+}
+
+.p-20 {
+    padding: 200px;
+}
+
+.pt-4 {
+    padding-top: 40px;
+}
